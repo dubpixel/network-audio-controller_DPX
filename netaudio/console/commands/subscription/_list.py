@@ -10,7 +10,7 @@ from redis import Redis
 from redis.exceptions import ConnectionError as RedisConnectionError
 
 from netaudio.dante.browser import DanteBrowser
-from netaudio.dante.cache import DanteCache
+#from netaudio.dante.cache import DanteCache
 
 
 def _default(self, obj):
